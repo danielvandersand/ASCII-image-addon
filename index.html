@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ASCII Art Generator</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="libraries/p5.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1>ASCII Art Generator</h1>
+  </header>
+  <div class="container">
+    <label for="imageUpload">Upload an image:</label>
+    <input type="file" id="imageUpload" name="imageUpload" accept=".jpeg, .jpg, .png">
+    <!-- Placeholder for the output image -->
+    <img id="imageOutput" src="https://via.placeholder.com/600x300?text=Upload+an+Image+to+Generate+ASCII+Art" style="display: block; margin-top: 20px; max-width: 100%; border: 1px solid #ccc;" alt="ASCII Art as Image">
+  </div>
+  <script src="sketch.js"></script>
+</body>
+</html>
